@@ -1,0 +1,153 @@
+/* Reset Element */
+
+html, body, ul, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  Global classes  */
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px 35px;
+  background: #077eba;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Start Header  */
+.header {
+  background-color: #dae2ea;
+  height: 100vh;
+}
+
+.header .navbar {
+  background-color: #46b8ef;
+}
+
+.header .navbar .logo {
+  width: 20%;
+  float: left;
+}
+.header .navbar .logo h1 {
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+.header .navbar .links {
+  width: 80%;
+  float: right;
+}
+.header .navbar .links ul {
+  float: right;
+}
+.header .navbar .links ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: .3s all;
+}
+.header .navbar .links ul li:hover {
+  border: 1px solid #fff;
+}
+.header .navbar .links ul li a {
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.header .intro {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header .intro h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #087fb9;
+}
+
+.header .intro p {
+  width: 70%;
+  line-height: 30px;
+  margin: 25px auto;
+}
+/* End Header  */
+
+/* Start COurses */
+.courses {
+  text-align: center;
+  background-color: #d1d3d6;
+  padding: 50px 0;
+}
+.courses h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #087fb9;
+}
+.courses .row {
+  margin: 50px 0;
+}
+
+.courses .row .col {
+  width: 30%;
+  float: left;
+  background: rgb(255, 255, 255);
+  margin: 0 1.5%;
+  padding: 20px 0;
+  border-radius: 10px;
+  font-family: sans-serif;
+  transition: .3s all;
+}
+.courses .row .col:hover {
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.courses .row .col h3 {
+  margin-top: 15px;
+}
+
+/* End COurses */
+
+/* Start Footer */
+.footer .connect-with-us {
+  background-color: #dae2ea;
+  padding: 50px 0;
+}
+
+.footer .connect-with-us h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #087fb9;
+}
+.footer .connect-with-us ul li {
+  margin: 10px 0;
+}
+.footer .copyrights {
+  text-align: center;
+  background-color: #d1d3d6;
+  padding: 20px 0 ;
+  color: #087fb9;
+}
+/* End Footer */
